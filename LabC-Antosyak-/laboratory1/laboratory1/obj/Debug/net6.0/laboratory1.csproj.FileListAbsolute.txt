@@ -1,0 +1,15 @@
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\bin\Debug\net6.0\laboratory1.exe
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\bin\Debug\net6.0\laboratory1.deps.json
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\bin\Debug\net6.0\laboratory1.runtimeconfig.json
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\bin\Debug\net6.0\laboratory1.dll
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\bin\Debug\net6.0\laboratory1.pdb
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\laboratory1.csproj.AssemblyReference.cache
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\laboratory1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\laboratory1.AssemblyInfoInputs.cache
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\laboratory1.AssemblyInfo.cs
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\laboratory1.csproj.CoreCompileInputs.cache
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\laboratory1.dll
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\refint\laboratory1.dll
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\laboratory1.pdb
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\laboratory1.genruntimeconfig.cache
+C:\Users\NIKA\Source\Repos\LabC-Antosyak-\laboratory1\laboratory1\obj\Debug\net6.0\ref\laboratory1.dll
