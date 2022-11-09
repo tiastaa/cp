@@ -70,19 +70,21 @@ namespace ConsoleApp1
             }
         }
 
-        public int GetAvg(int x)
+        public int GetAvg()
         {
             SQLiteConnection conn = Singleton.GetInstance();
 
-            using (SQLiteCommand command = new SQLiteCommand("SELECT AVG(price) FROM " + tableName + " WHERE prize1 + prize2 + prize3 > " + x, conn))
+            using (SQLiteCommand command = new SQLiteCommand("SELECT AVG(employees) FROM " + tableName , conn))
             {
                 SQLiteDataReader reader = command.ExecuteReader();
-
+                int Avg = 0;
+                int k = 0;
                 while (reader.Read())
                 {
-                    return Convert.ToInt32(reader[0]);
+                    Avg=Avg+Convert.ToInt32(reader[0]);
+                    k++;
                 }
-                return 0;
+                return Avg/k;
             }
         }
 
@@ -110,13 +112,13 @@ namespace ConsoleApp1
             else
             {
                 using (command = new SQLiteCommand("UPDATE " + tableName +
-                    " SET authorName = @enterpriseName, employees = @authorSurName, price = @price, prize1 = @prize1, prize2 = @prize2, prize3 = @prize3" +
+                    " SET enterpriseName = @enterpriseName, employees = @enterpriseName, productName = @productName, country = @country" +
                     " WHERE id = @id", conn))
                 {
-                    command.Parameters.Add(new SQLiteParameter("@authorName", enterprise.enterpriseName));
-                    command.Parameters.Add(new SQLiteParameter("@authorSurName", enterprise.employees));
-                    command.Parameters.Add(new SQLiteParameter("@price", enterprise.productName));
-                    command.Parameters.Add(new SQLiteParameter("@prize1", enterprise.country));
+                    command.Parameters.Add(new SQLiteParameter("@enterpriseName", enterprise.enterpriseName));
+                    command.Parameters.Add(new SQLiteParameter("@employees", enterprise.employees));
+                    command.Parameters.Add(new SQLiteParameter("@productName", enterprise.productName));
+                    command.Parameters.Add(new SQLiteParameter("@country", enterprise.country));
 
                     command.Parameters.Add(new SQLiteParameter("@id", enterprise.id));
                     command.ExecuteNonQuery();
