@@ -38,7 +38,7 @@ namespace ConsoleApp1
 
         public override string ToString()
         {
-            return $"Author:{enterpriseName}  with id {id}";
+            return $"EnterpriseName:{enterpriseName}  with id {id}";
         }
     }
 }
