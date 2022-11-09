@@ -18,12 +18,10 @@ namespace ConsoleApp1
             string Table = "CREATE TABLE Project " +
                 "(" +
                 "id integer PRIMARY KEY AUTOINCREMENT," +
-                "authorName varchar(64) not null," +
-                "authorSurName varchar(64) not null," +
-                "price REAL not null," +
-                "prize1 INTEGER not null," +
-                "prize2 INTEGER not null," +
-                "prize3 INTEGER not null" +
+                "enterpriseName varchar(64) not null," +
+                "employees INTEGER not null," +
+                "productName varchar(64) not null," +
+                "country   varchar(64) not null," +
                 ")";
             SQLiteCommand cmd = new SQLiteCommand(Table, conn);
 
@@ -61,7 +59,7 @@ namespace ConsoleApp1
             Enterprise enterprise1 = table.GetById(1);
             Console.WriteLine(enterprise1);
 
-            Console.WriteLine(table.GetAvg(2));
+            Console.WriteLine(table.GetAvg());
 
             Singleton.CloseConnection();
 
